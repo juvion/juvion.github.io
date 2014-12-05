@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Universal Gravity!"
 date:   2014-12-05 14:19:34
 categories: jekyll update
 ---
