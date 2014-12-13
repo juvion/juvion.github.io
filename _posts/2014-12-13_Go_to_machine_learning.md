@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First step."
+title:  "Go to machine learning."
 date:   2014-12-12
 
 #Go to machine learning
