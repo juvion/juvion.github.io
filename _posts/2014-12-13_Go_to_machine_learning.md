@@ -1,4 +1,9 @@
-#Welcome
+---
+layout: post
+title:  "First step."
+date:   2014-12-12
+
+#Go to machine learning
 Hey guys, we have finished EdX online StatX2.1, StatX2.2 from Berkeley, and now we are diving into StatX2.3. That's a great achievement.  
 <br>
 Since we are going to be prepared with good amount of statistics knowledge, I think it will be reasonable to move to next Data Science course. So, how about exciting machine learning course? Here are some online course that might be worth to look at.  
