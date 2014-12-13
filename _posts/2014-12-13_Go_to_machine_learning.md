@@ -2,6 +2,7 @@
 layout: post
 title:  "Go to machine learning."
 date:   2014-12-12
+---
 
 #Go to machine learning
 Hey guys, we have finished EdX online StatX2.1, StatX2.2 from Berkeley, and now we are diving into StatX2.3. That's a great achievement.  
