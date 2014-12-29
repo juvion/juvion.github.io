@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "First step."
-date:   2014-12-05
+title:  "Data processing with R."
+date:   2013-09-05
 ---
 
 **R script to grab subset of data**  
 In previous work, all the variants are plotted with three variables: folding free energy at 37C (dGflex_37C), 
 temperature senstivity normalized score (TS_delta_norm_socre), and GFP seq activity (delta2_reflow_normalized).  
-![scatter plot][plot1]
+![scatter plot][1]
 In this work, all the variants that are considered as outliers will be extracted from the original data set. 
 The outliers that are the upper left Quadran and lower right Quadran, where temperature senstivity is not able to be explained by folding free energy at 37C.  
 
@@ -20,7 +20,7 @@ library(pROC)
 
 #setup working dir and input files.
 workdir = "/Users/ju/Works/Sup4ochre/analysis/work19.4"
-infile = "tRNA_7_31_14_Ju_processed_10-29-14b.csv"
+infile = "tRNA_7_31_14_Ju_processed_10-29-14b.csv" 
 
 setwd(workdir)
 
@@ -117,4 +117,4 @@ write.table(outlier_data_wt[,c("ID", "Sequence")],"tRNA_7_31_14_Ju_processed
 
 ```
 
-[plot1]:https://dl.dropboxusercontent.com/u/3637996/github_pages/met22delta_TS.png
+[1]: https://dl.dropboxusercontent.com/u/3637996/github_pages/post_2013-09-05-R_data_processing/met22delta_TS.png

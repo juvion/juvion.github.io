@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Go to machine learning."
-date:   2014-12-12
+date:   2014-10-13
 ---
 
 #Go to machine learning
@@ -33,4 +33,4 @@ we will get much more serious training, especially with our group studying.
 
 [1]: https://class.coursera.org/ml-007
 [2]: https://www.udacity.com/course/ud120
-[3]:https://class.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about
+[3]: https://class.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about
