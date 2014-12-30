@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python script: Automate DNA sequences design"
+title:  "Python script: Automate DNA sequences design."
 date:   2014-05-25
 ---
 

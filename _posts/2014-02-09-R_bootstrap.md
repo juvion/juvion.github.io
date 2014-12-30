@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bootstrapping with R"
+title:  "Bootstrapping with R."
 date:   2014-02-09
 ---
 
