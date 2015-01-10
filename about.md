@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+page-class: page-about
 ---
 
 Hi, my name is __Xiaoju (Ju) Zhang__ and I’m a __Molecular Biologist__ and a __Computational Biologist__ with 
