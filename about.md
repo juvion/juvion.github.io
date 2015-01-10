@@ -15,7 +15,4 @@ University of Oklahoam Helath Science Center.
 ## Contact
 
 If you have any questions, comments, or would just like to say hello, please don't hesitate to send me a 
-mail [xiaojuzh@gmail.com](mailto:xiaojuzh@gmail.com). Or, you can also vist me at my 
-[LinkedIn][1]
-
-[1]: www.linkedin.com/pub/xiaoju-ju-zhang/15/b5a/36b
+mail [xiaojuzh@gmail.com](mailto:xiaojuzh@gmail.com).

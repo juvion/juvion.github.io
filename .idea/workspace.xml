@@ -46,8 +46,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.091603056" vertical-offset="0" max-vertical-offset="655">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.38931298" vertical-offset="0" max-vertical-offset="655">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -543,7 +543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420911952040</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="linkedin&#10;">
+      <created>1420912109205</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1420912109205</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -619,9 +625,10 @@
     <MESSAGE value="New post&#10;" />
     <MESSAGE value="Fix a bug of an R script, 2013-12-28-R_tips.md." />
     <MESSAGE value="&#10;fix titles" />
-    <MESSAGE value="&#10;" />
     <MESSAGE value="&#10;Fix About LinkedIn link." />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Fix About LinkedIn link." />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="linkedin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1070,8 +1077,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.091603056" vertical-offset="0" max-vertical-offset="655">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.38931298" vertical-offset="0" max-vertical-offset="655">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           <folding />
         </state>
       </provider>
