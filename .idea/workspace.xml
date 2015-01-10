@@ -46,8 +46,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48091602" vertical-offset="0" max-vertical-offset="655">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.091603056" vertical-offset="0" max-vertical-offset="655">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -537,7 +537,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420907190460</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="&#10;Fix About LinkedIn link.">
+      <created>1420911952040</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1420911952040</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -612,9 +618,10 @@
     <MESSAGE value="&#10;Update About page&#10;" />
     <MESSAGE value="New post&#10;" />
     <MESSAGE value="Fix a bug of an R script, 2013-12-28-R_tips.md." />
-    <MESSAGE value="&#10;" />
     <MESSAGE value="&#10;fix titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;fix titles" />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="&#10;Fix About LinkedIn link." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Fix About LinkedIn link." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1063,8 +1070,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48091602" vertical-offset="0" max-vertical-offset="655">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.091603056" vertical-offset="0" max-vertical-offset="655">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
