@@ -59,8 +59,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8621746" vertical-offset="907" max-vertical-offset="1560">
-              <caret line="98" column="102" selection-start-line="98" selection-start-column="102" selection-end-line="98" selection-end-column="102" />
+            <state vertical-scroll-proportion="2.2281775" vertical-offset="0" max-vertical-offset="1545">
+              <caret line="97" column="102" selection-start-line="97" selection-start-column="102" selection-end-line="97" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -539,7 +539,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421772768629</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add post for PyMOL scripting">
+      <created>1421772982593</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1421772982593</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1069,8 +1075,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8621746" vertical-offset="907" max-vertical-offset="1560">
-          <caret line="98" column="102" selection-start-line="98" selection-start-column="102" selection-end-line="98" selection-end-column="102" />
+        <state vertical-scroll-proportion="2.2281775" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="97" column="102" selection-start-line="97" selection-start-column="102" selection-end-line="97" selection-end-column="102" />
           <folding />
         </state>
       </provider>

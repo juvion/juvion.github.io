@@ -4,6 +4,7 @@ title:  "Scripting with PyMOL."
 date:   2015-01-20
 ---
 
+
 #Scripting with PyMOL
 
 ![PyMOL_structure][3]
@@ -43,11 +44,11 @@ run /home/userName/path/toscript/pyProgram.py
 >    2.  Then, just type the name of the command: doSimpleThing and pass any needed arguments.  
 
 
-mark_res.py  
+**mark_res.py**  
+   
 ```python
 #2015 Xiaoju Zhang
 from pymol import cmd
-
 
 def mark_res():
     """ mark_res <pdb_file> <highlight_residue>
@@ -90,9 +91,7 @@ def mark_res():
         #remove the previous work
         cmd.delete("all")
 cmd.extend('mark_res', mark_res)
-
 ```
-
 
 [1]:http://www.pymolwiki.org/index.php/Category:Script_Library
 [2]:http://www.pymolwiki.org/index.php/Simple_Scripting
