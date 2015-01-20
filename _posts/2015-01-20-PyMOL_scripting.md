@@ -6,6 +6,8 @@ date:   2015-01-20
 
 #Scripting with PyMOL
 
+![PyMOL_structure][3]
+
 PyMOL supports Python scripting. This gives users the power to implement 
 most of the Python libraries to write programs and then send the results 
 back into PyMOL. Useful extensions to PyMOL can be found in our 
@@ -94,3 +96,4 @@ cmd.extend('mark_res', mark_res)
 
 [1]:http://www.pymolwiki.org/index.php/Category:Script_Library
 [2]:http://www.pymolwiki.org/index.php/Simple_Scripting
+[3]:https://dl.dropboxusercontent.com/u/3637996/github_pages/post_2015-01-20-PyMOL_scripting/pymol.png
