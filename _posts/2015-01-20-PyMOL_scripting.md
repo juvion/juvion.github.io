@@ -1,4 +1,10 @@
-#Scripting PyMOL
+---
+layout: post
+title:  "Scripting with PyMOL."
+date:   2015-01-20
+---
+
+#Scripting with PyMOL
 
 PyMOL supports Python scripting. This gives users the power to implement 
 most of the Python libraries to write programs and then send the results 
