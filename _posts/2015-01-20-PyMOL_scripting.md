@@ -4,9 +4,6 @@ title:  "Scripting with PyMOL."
 date:   2015-01-20
 ---
 
-
-#Scripting with PyMOL
-
 ![PyMOL_structure][3]
 
 PyMOL supports Python scripting. This gives users the power to implement 
