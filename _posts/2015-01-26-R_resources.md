@@ -17,8 +17,8 @@ This page links to online information about the computational research groups an
 ![quickR](https://dl.dropboxusercontent.com/u/3637996/github_pages/post_2015-01-26-R_resources/quickR.png)
 My very beginning referencing webpage. 
 
-4. [R-bloggers](http://www.r-bloggers.com/)
+4. [**R-bloggers**](http://www.r-bloggers.com/)
 ![R bloggers](https://dl.dropboxusercontent.com/u/3637996/github_pages/post_2015-01-26-R_resources/R-bloggers.png)
 Excellent articles and tutorial for some great tricks.
 
-5. [R reference card](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)
+5. [**R reference card**](http://cran.r-project.org/doc/contrib/Short-refcard.pdf)
