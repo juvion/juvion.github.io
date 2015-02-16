@@ -10,13 +10,14 @@ intrests in Genomics, and RNA Structure.
 
 I am currently a PhD candidate at University of Rochester working on RNA compuational field. Previously, 
 I earned my mater degrees in Human Genetics from Shanghai Jiaotong University and Molecular Biology from 
-University of Oklahoam Helath Science Center. 
+University of Oklahoam Helath Science Center.   
 
+You can find my resume [here](http://juvion.github.io/resume.html).
 
 ## Contact
 
 If you have any questions, comments, or would just like to say hello, please don't hesitate to send me a 
 mail [xiaojuzh@gmail.com](mailto:xiaojuzh@gmail.com).
 
-##My Resume
-You can find my resume [here](http://juvion.github.io/resume.html).
+
+
