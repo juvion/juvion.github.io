@@ -19,4 +19,4 @@ If you have any questions, comments, or would just like to say hello, please don
 mail [xiaojuzh@gmail.com](mailto:xiaojuzh@gmail.com).
 
 ##My Resume
-You can find my resume here[].
+You can find my resume [here](http://juvion.github.io/resume.html).
