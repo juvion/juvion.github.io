@@ -14,8 +14,10 @@ pandas is a python module that is robust for data processing.
 
 #!/opt/local/bin/python
 '''
-I got Ambry genetics intern position today. It's exciting! People who talked to me are really nice, a little bit embarrassed that failed to answer such simple question..
--- 2015.04.16
+I got Ambry genetics intern position today. It's exciting! 
+People who talked to me are really nice, 
+and I am a little bit embarrassed that I failed to answer such simple questions ...
+                                                                    -- Ju 2015.04.16
 '''
 import sys
 import pandas as pd
