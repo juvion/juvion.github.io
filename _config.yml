@@ -9,4 +9,4 @@ twitter_username: juvion
 github_username:  juvion
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
