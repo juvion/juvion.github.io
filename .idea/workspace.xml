@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b119a4b1-9fc6-406f-a603-127cd85229b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-09-20-Multiprocessing_with_Python.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-09-20-Multiprocessing_with_Python.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="juvion.github.io.iws" />
@@ -84,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-10-13-Go_to_machine_learning.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2014-10-13-Go_to_machine_learning.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2014-10-13-Go_to_machine_learning.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -97,6 +99,15 @@
           </provider>
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-09-20-Multiprocessing_with_Python.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-09-20-Multiprocessing_with_Python.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="-1" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -733,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474439054835</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add multiprocessing with python post">
+      <created>1474439100981</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1474439100981</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
