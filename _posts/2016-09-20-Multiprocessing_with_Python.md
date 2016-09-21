@@ -2,11 +2,10 @@
 layout: post
 title:  "Multiprocessing with Python."
 date:   2016-09-20
----  
+---
 
 So put all together, following is the full code. Note that iPython is not able to call multiple CPUs, and it has to run in terminal. Save the code as `test_counts.py` in your working directory, and put `samplesTests.csv` in the same folder with the code, then run 
 `python test_counts.py`
-
 
 ```python
 import multiprocessing
