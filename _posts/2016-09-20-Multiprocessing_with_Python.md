@@ -5,8 +5,8 @@ date:   2016-09-20
 ---
 
 
-
-This is a simple example of what I have just learned about how to utilize Python's `multiprocessing` library to perform paralle tasks. 
+#### Paralle computing using Python  
+This is a simple tutorial of how to utilize Python's `multiprocessing` library to perform paralle tasks (using multiple CPUs). 
 
 
 ```python
@@ -15,7 +15,7 @@ import pandas as pd
 import multiprocessing
 ```
 
-The example dataset is [`samplesTests.csv`](https://github.com/juvion/juvion.github.io/raw/master/ref/samplesTests.zip), which simulates the testing times of samples, and it has 886413 tests.
+The example dataset is [`samplesTests.csv`](https://github.com/juvion/juvion.github.io/raw/master/ref/samplesTests.zip), which contains the testing timestamps and sample IDs, and it has 886413 tests in total.
 
 
 ```python
@@ -108,8 +108,8 @@ dfTest.shape
 
 
 
-What I want to achieve here is to count how many tests have been performed for each sample. 
-So the first thing is to get the list of sampleIDs.
+What I want to achieve here is to count how many tests have been performed for each sample, and I like to distribute this work into multiple tasks based on sample IDs. 
+So the first thing is to get the list of sample IDs.
 
 
 ```python
@@ -124,7 +124,7 @@ samples
 
 
 
-Then define a function `test_counter()`, which is the job that each thread of the parallel tasks will be performing. It counts size of dataframe that grouped by the sampleID, and stores that count into a dictionary.
+Then define a function `test_counter()`, which is the job that each thread of the parallel tasks will be performing. It counts the size of dataframe that grouped by the sampleID, and stores that count into a dictionary.
 
 
 ```python
@@ -140,8 +140,11 @@ def test_counter(sample):
     return test_counts
 ```
 
-It needs another function, which serves as multiple task handler. It assigns number of threads, and run the parallel tasks. 
-`map` function takes two parameters here: function shared by the parallel tasks and list of the function's input parameter. For example
+Now, the paralle computing needs another function, which serves as multiple task handler. It assigns the number of threads, and arranges the parallel tasks. 
+`map` function takes two parameters:
+- a function: the task
+- a list: list of inputs for the task function. 
+For example:
 
 
 ```python
@@ -151,7 +154,7 @@ p = multiprocessing.Pool()
 result_L = p.map(test_counter, samples)
 ```
 
-There is a tiny side effect of the parallel job. `result_L` is a list of dictionaries, which makes sence. Each parallel task will pool its result (dictionary) into a list. So, I have to reform the list and merge all the items back to a large dictionary.
+There is a tiny side effect of this particular parallel computing. `result_L` ends as a list of dictionaries, which makes sence... `Pool` will collect all parallel tasks' results (dictionaries) into a list. So, I have to merge the list of dictionaries into a large dictionary.
 
 
 ```python
@@ -203,7 +206,7 @@ if __name__ == '__main__':
     mp_handler()
 ```
 
-Note Functionality within this package requires that the __main__ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples will not work in the interactive interpreter (so does jupyter notebook). For example:
+Note Functionality within the package of `multiprocessing` requires that the __main__ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples will not work in the interactive interpreter (so does jupyter notebook). For example:
 
 ```
 >>> from multiprocessing import Pool
