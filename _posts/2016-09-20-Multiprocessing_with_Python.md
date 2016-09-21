@@ -15,7 +15,7 @@ import pandas as pd
 import multiprocessing
 ```
 
-The example dataset is [`samplesTests.csv`](https://github.com/juvion/juvion.github.io/blob/master/ref/samplesTests.zip), which simulates the testing times of samples, and it has 886413 tests.
+The example dataset is [`samplesTests.csv`](https://github.com/juvion/juvion.github.io/raw/master/ref/samplesTests.zip), which simulates the testing times of samples, and it has 886413 tests.
 
 
 ```python
