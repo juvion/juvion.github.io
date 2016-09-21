@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Multiprocessing with Python."
@@ -37,9 +36,4 @@ def mp_handler():
 
 if __name__ == '__main__':
     mp_handler()
-```
-
-
-```python
-
 ```
