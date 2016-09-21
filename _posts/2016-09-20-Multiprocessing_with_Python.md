@@ -5,8 +5,8 @@ date:   2016-09-20
 ---
 
 
-### Paralle computing using Python  
-This is a simple tutorial of how to utilize Python's `multiprocessing` library to perform paralle tasks (using multiple CPUs). 
+### Parallel computing using Python  
+This is a simple tutorial of how to utilize Python's `multiprocessing` library to perform parallel tasks (using multiple CPUs). 
 
 
 ```python
@@ -140,7 +140,7 @@ def test_counter(sample):
     return test_counts
 ```
 
-Now, the paralle computing needs another function, which serves as multiple task handler. It assigns the number of threads, and arranges the parallel tasks. 
+Now, the parallel computing needs another function, which serves as multiple task handler. It assigns the number of threads, and arranges the parallel tasks. 
 `map` function takes two parameters:  
 - a function: the task   
 - a list: list of inputs for the task function.   
@@ -154,7 +154,7 @@ p = multiprocessing.Pool()
 result_L = p.map(test_counter, samples)
 ```
 
-There is a tiny side effect of this particular parallel computing. `result_L` ends as a list of dictionaries, which makes sence... `Pool` will collect all parallel tasks' results (dictionaries) into a list. So, I have to merge the list of dictionaries into a large dictionary.
+There is a tiny side effect of this particular parallel computing. `result_L` ends as a list of dictionaries, which makes sense... `Pool` will collect all parallel tasks' results (dictionaries) into a list. So, I have to merge the list of dictionaries into a large dictionary.
 
 
 ```python
@@ -206,7 +206,7 @@ if __name__ == '__main__':
     mp_handler()
 ```
 
-Note Functionality within the package of `multiprocessing` requires that the \_\_main\_\_ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples will not work in the interactive interpreter (so does jupyter notebook). For example:
+Note Functionality within the package of `multiprocessing` requires that the \_\_main\_\_ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples do not work in the interactive interpreter (so does jupyter notebook). For example:
 
 ```
 >>> from multiprocessing import Pool
