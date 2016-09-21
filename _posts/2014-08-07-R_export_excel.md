@@ -5,7 +5,7 @@ date:   2014-08-07
 ---
 
 
-####An R function to write multiple table into excel.
+#### An R function to write multiple table into excel.   
 Very often, when I want to save my dataset as a spreadsheet, I export them one by one as separate .csv file. Today, 
 I generated multiple really close but different subsets of data, so I want to put them into a single excel file for 
 my report. Then I googled and found this method. Besides, the author mentioned a R package [xlsx][2] can do all sorts 
@@ -37,5 +37,5 @@ and state.x77 (a matrix) to the workbook myworkbook.xlsx. Each object should be 
 and the worksheet should take on the name of the object.
 
 
-[1]: http://www.r-bloggers.com/quickly-export-multiple-r-objects-to-an-excel-workbook
-[2]: http://cran.r-project.org/web/packages/xlsx/index.html
+[1]: http://www.r-bloggers.com/quickly-export-multiple-r-objects-to-an-excel-workbook   
+[2]: http://cran.r-project.org/web/packages/xlsx/index.html   
