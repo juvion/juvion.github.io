@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Processing multi dimension data with Python."
-date:   2015-04-16
+title:  "Multiprocessing with Python."
+date:   2016-09-20
 ---
 
 
