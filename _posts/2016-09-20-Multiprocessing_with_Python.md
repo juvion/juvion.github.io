@@ -141,9 +141,9 @@ def test_counter(sample):
 ```
 
 Now, the paralle computing needs another function, which serves as multiple task handler. It assigns the number of threads, and arranges the parallel tasks. 
-`map` function takes two parameters:
-- a function: the task
-- a list: list of inputs for the task function. 
+`map` function takes two parameters:  
+- a function: the task   
+- a list: list of inputs for the task function.   
 For example:
 
 
@@ -206,7 +206,7 @@ if __name__ == '__main__':
     mp_handler()
 ```
 
-Note Functionality within the package of `multiprocessing` requires that the __main__ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples will not work in the interactive interpreter (so does jupyter notebook). For example:
+Note Functionality within the package of `multiprocessing` requires that the \__main__ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples will not work in the interactive interpreter (so does jupyter notebook). For example:
 
 ```
 >>> from multiprocessing import Pool
