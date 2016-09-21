@@ -227,5 +227,5 @@ AttributeError: 'module' object has no attribute 'f'
 For further reading, you can go to here [2](https://pymotw.com/2/multiprocessing/communication.html)
 
 #reference
-1. https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming
-2. https://pymotw.com/2/multiprocessing/communication.html
+1. [multiprocessing documentation](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming)
+2. [Communication Between Processes](https://pymotw.com/2/multiprocessing/communication.html)
