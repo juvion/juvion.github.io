@@ -19,7 +19,7 @@ z-score distribution of all nonICPs from the same ICP dipeptide family were plot
 ![distribution_icp_vs_nonicp_shift2][4]
 
 
-To bootstrap over a data table, use the library dplyr function sample_n(); to bootstrap over a vector, use sample()
+To bootstrap over a data table, use the library dplyr function `sample_n()`; to bootstrap over a vector, use `sample()`
 
 ```r
 library(dplyr)
