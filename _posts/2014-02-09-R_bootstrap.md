@@ -10,7 +10,7 @@ date:   2014-02-09
  This technique allows estimation of the sampling distribution of almost any statistic using very simple methods. 
  Generally, it falls in the broader class of resampling methods.
 
-####Example
+#### Example  
 In this study, z-score for all the inhibitory codon pairs (ICP) family codon pairs (coding same dipeptide) are computed. 
 The z-score is computed from each dipeptide family group. Then, z-scores distribution of all 14 ICPs and 
 z-score distribution of all nonICPs from the same ICP dipeptide family were plotted and compared.
@@ -82,7 +82,7 @@ mean(ttest.bootstrap)
 
 
 
-####Other examples
+#### Other examples  
 Bootstrap from two groups of dataset to get t.test quantile.  
 
 ```r
