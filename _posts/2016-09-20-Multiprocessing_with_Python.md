@@ -206,7 +206,7 @@ if __name__ == '__main__':
     mp_handler()
 ```
 
-Note Functionality within the package of `multiprocessing` requires that the \_\_main\_\_ module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples do not work in the interactive interpreter (so does jupyter notebook). For example:
+Note Functionality within the package of `multiprocessing` requires that the `\_\_main\_\_` module be importable by the children [1](https://docs.python.org/2/library/multiprocessing.html#multiprocessing-programming). This means that some examples, such as the Pool examples do not work in the interactive interpreter (so does jupyter notebook). For example:
 
 ```
 >>> from multiprocessing import Pool
