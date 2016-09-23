@@ -163,7 +163,7 @@ for d in result_L:
     results.update(d)
 ```
 
-So put all together, following is the full code. 
+So put it all together, following is the full code. 
 `python test_counts.py`
 
 ```python
