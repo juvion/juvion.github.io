@@ -23,7 +23,7 @@ been recently positively confirmed, and the ATP switch’s test is under going.
 
 ![DNA_switch_scheme][1]
 
-####python script to patch the sequences based on thermal energy optimization.
+#### python script to patch the sequences based on thermal energy optimization.  
 
 ```python
 #!/usr/bin/python
