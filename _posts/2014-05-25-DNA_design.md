@@ -4,7 +4,7 @@ title:  "Python script: Automate DNA sequences design."
 date:   2014-05-25
 ---
 
-###Background
+### Background  
 Beyond its central role in biology, DNA was also known to provide switchable nanomechanical devices
 whose equilibrium states can be controlled by adding ligands or complementary DNA fragment.
 This feature makes DNA switch design the core of many promising nanoscale applications,such as probes
